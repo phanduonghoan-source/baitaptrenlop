@@ -43,11 +43,11 @@ public class MyTriangle {
         boolean ca = Math.abs(c - a) < 1e-9;
 
         if (ab && bc) {
-            return "Equilateral";       // 3 cạnh bằng nhau
+            return "Equilateral";      
         } else if (ab || bc || ca) {
-            return "Isosceles";         // có 2 cạnh bằng nhau
+            return "Isosceles";        
         } else {
-            return "Scalene";           // 3 cạnh khác nhau
+            return "Scalene";         
         }
     }
 
