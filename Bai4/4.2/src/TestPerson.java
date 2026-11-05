@@ -21,7 +21,7 @@ public class TestPerson {
 
         Person[] people = { p, s, st };
         for (Person x : people) {
-            System.out.println(x.toString());   // goi dung toString() cua tung lop
+            System.out.println(x.toString());
         }
     }
 }

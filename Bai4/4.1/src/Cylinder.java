@@ -10,19 +10,19 @@ public class Cylinder extends Circle {
 
 
     public Cylinder(double height) {
-        super();          // goi Circle()
+        super();
         this.height = height;
     }
 
 
     public Cylinder(double radius, double height) {
-        super(radius);    // goi Circle(radius)
+        super(radius);
         this.height = height;
     }
 
 
     public Cylinder(double radius, double height, String color) {
-        super(radius, color);   // goi Circle(radius, color)
+        super(radius, color);
         this.height = height;
     }
 
