@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class TestMovablePoint {
     public static void main(String[] args) {
 
-
         MovablePoint p1 = new MovablePoint(1.0f, 2.0f, 0.5f, 1.5f);
         MovablePoint p2 = new MovablePoint(0.5f, 1.5f);
         MovablePoint p3 = new MovablePoint();
@@ -11,14 +10,11 @@ public class TestMovablePoint {
         System.out.println("p2 = " + p2);
         System.out.println("p3 = " + p3);
 
-
         p1.move();
         System.out.println("p1 sau 1 lan move = " + p1);
 
-
         p1.move().move();
         System.out.println("p1 sau them 2 lan move = " + p1);
-
 
         p1.setSpeed(2.0f, 3.0f);
         System.out.println("Toc do moi = " + Arrays.toString(p1.getSpeed()));
